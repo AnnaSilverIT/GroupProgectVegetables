@@ -1,0 +1,40 @@
+header {
+  padding: 0 33px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -4%;
+}
+header .header__menu {
+  width: 241px;
+}
+header .header__menu .menu-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+header .logo-block {
+  display: flex;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -4%;
+}
+header .logo-block .logo-block__logo {
+  margin-right: 8px;
+}
+header .header__basket {
+  display: flex;
+  align-items: center;
+}
+header .header__basket .img {
+  width: 100%;
+}/*# sourceMappingURL=app.css.map */
