@@ -75,7 +75,12 @@
 }
 
 .threeSteps__text h2 {
-  font-family: var(--font-family);
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -4%;
   font-weight: 500;
   font-size: 40px;
   line-height: 110%;
@@ -84,11 +89,29 @@
 }
 
 .threeSteps__text p {
-  font-family: var(--font-family);
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -4%;
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.04em;
+}
+
+.discount__textUp {
+  background-color: rgb(161, 196, 135);
+  transform: rotate(20deg);
+}
+
+.discount__textDown {
+  background-color: rgb(252, 138, 17);
+}
+
+.discount {
+  background-color: rgb(252, 138, 17);
 }
 
 header {
