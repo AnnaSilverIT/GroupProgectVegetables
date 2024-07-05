@@ -1,24 +1,49 @@
+.text_cards {
+  font-family: var(--font-family);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ }
 
+.wrapper {
+  font-family: var(--font-family);
+ }
 .cards {
-   background-color: rgb(255, 255, 254);
+   background-color: #EAF7E5;
+   width: 389px;
+   height: 465px;
+   border-radius: 20px;
+   padding: 30px;
    
   }
-  .text_cards {
-   font-family: var(--font-family);
-   display: flex;
-   justify-content: center;
-   text-align: center;
+  .card-title {
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-size: 32px;
   }
-  
-  
+  .cards_img {
+    background-color: #fff;
+    
+  }
+  .cards_sub {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .cards_sub2 {
+    font-size: 18px;
+    font-weight: 300;
+  }
   .round {
-    display: flex;
-   width: 60px; 
-  height: 60px; 
-  background-color: #FC8A11; 
-  border-radius: 50%; 
-  border: none; 
-  justify-content:center;
-   align-items:center;
+   width: 40px; 
+   height: 40px; 
+   background-color:  rgba(252, 138, 17, 1); 
+   border-radius: 50%; 
+   border: none; 
+   text-decoration: none;
+   text-align: center;
+   margin: auto;
+   display: flex;
+   outline: none;
+   justify-content:center;
   }
   
