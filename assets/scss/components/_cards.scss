@@ -7,6 +7,7 @@
 
 .wrapper {
   font-family: var(--font-family);
+  display: grid;
  }
 .cards {
    background-color: #EAF7E5;
@@ -16,30 +17,33 @@
    padding: 30px;
    
   }
+   
   .card-title {
     margin-top: 20px;
     font-family: var(--font-family);
     font-size: 32px;
   }
+
   .cards_img {
-    background-color: #fff;
-    
+    height: 261px;
+    width: 321px;
   }
+
   .cards_sub {
     font-size: 18px;
     font-weight: 300;
   }
+
   .cards_sub2 {
     font-size: 18px;
     font-weight: 300;
   }
+
   .round {
-   width: 40px; 
-   height: 40px; 
+   width: 100px; 
+   height: 100px; 
    background-color:  rgba(252, 138, 17, 1); 
    border-radius: 50%; 
-   border: none; 
-   text-decoration: none;
    text-align: center;
    margin: auto;
    display: flex;
