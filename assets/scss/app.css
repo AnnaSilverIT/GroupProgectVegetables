@@ -13,7 +13,6 @@
   line-height: 104%;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  color: var(--black);
 }
 
 .text__ourbasket {
@@ -45,33 +44,44 @@
 .threeSteps {
   display: grid;
   grid-template-columns: 7fr 1fr 1fr 8fr;
-  grid-template-rows: repeat(6, 1fr);
-  background-color: rgb(250, 243, 231);
+  grid-template-rows: repeat(5, 1fr);
+  background-image: url();
+  border-radius: 100px;
 }
 
 .stepNumber {
-  display: inline;
+  display: inline-block;
   max-height: 10px;
   max-width: 3px;
   border-radius: 200px;
   padding: 10px 14px;
-  width: 46px;
-  height: 44px;
   background-color: rgb(161, 196, 135);
 }
 
 .threeSteps_img {
   grid-column: 1/2;
-  grid-row: 2/7;
+  grid-row: 2/6;
 }
 
 .threeSteps__text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   grid-column: 4/5;
-  grid-row: 2/7;
+  grid-row: 2/6;
+  margin: 0;
+}
+
+.threeSteps__text span {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -4%;
+  margin: 5px;
+  padding: 15px;
 }
 
 .threeSteps__text h2 {
@@ -101,17 +111,26 @@
   letter-spacing: -0.04em;
 }
 
-.discount__textUp {
+.discount__text {
+  color: #f9f7f4;
+  padding: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -4%;
+  margin: 0;
+}
+
+.discount__text_Up {
+  background-color: rgb(252, 138, 17);
+  transform: rotate(3deg);
+}
+
+.discount__text_Down {
   background-color: rgb(161, 196, 135);
-  transform: rotate(20deg);
-}
-
-.discount__textDown {
-  background-color: rgb(252, 138, 17);
-}
-
-.discount {
-  background-color: rgb(252, 138, 17);
+  transform: rotate(-3deg);
 }
 
 header {
