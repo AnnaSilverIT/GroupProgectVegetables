@@ -1,0 +1,9 @@
+
+.container__green-box {
+    display: flex;
+    height: 730px;
+    background-color: #A1C487;
+    }
+    .organic__text {
+        @include DM-sans(normal, 400, 14px, 18px);
+    }
