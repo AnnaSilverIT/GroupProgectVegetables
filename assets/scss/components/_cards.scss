@@ -21,16 +21,16 @@
 
 .wrapper {
   font-family: var(--font-family);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   gap: 15px;
  }
 .cards {
-   background-color: #EAF7E5;пше 
+   background-color: rgba(234,247,229,1);
    height: 400px;
+   width: 300px;
    border-radius: 20px;
    padding: 30px;
-  
   }
    
   .cards-title {
@@ -71,5 +71,4 @@
   }
   .cards_button {
     margin: auto;
-    
   }
