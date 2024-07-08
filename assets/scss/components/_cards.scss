@@ -23,7 +23,8 @@
   font-family: var(--font-family);
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  justify-content: center;
+  gap: 24px;
  }
 .cards {
    background-color: rgba(234,247,229,1);
@@ -37,7 +38,7 @@
     margin-top: 20px;
     font-family: var(--font-family);
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .cards_img {
