@@ -23,22 +23,21 @@
   font-family: var(--font-family);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 24px;
+  gap: 15px;
  }
 .cards {
-   background-color: #EAF7E5;
-   width: 389px;
-   height: 465px;
+   background-color: #EAF7E5;пше 
+   height: 400px;
    border-radius: 20px;
    padding: 30px;
   
   }
    
-  .card-title {
+  .cards-title {
     margin-top: 20px;
     font-family: var(--font-family);
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .cards_img {
