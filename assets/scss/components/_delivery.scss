@@ -4,10 +4,7 @@
     grid-row-gap: 40px;
     
     }
-    @media (min-width: 768px) {
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 40px;
-    }
+    
     .shipping {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -54,10 +51,7 @@
     grid-template-columns: 1fr;
     grid-row-gap: 40px;
     }
-    @media (min-width: 768px) {
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 40px;
-    }
+    
     .fresh__photo {
         grid-column: 3/4;
         grid-row: 1/2;
