@@ -276,9 +276,10 @@ header .header__basket .img {
   .shipping_img {
       grid-column: 1 / 2;
       grid-row: 1/2;
-      width: 578px;
-      height: 339px;
+      width: 80%;
+      height: auto;
       padding: 90px;
+      object-fit: inherit;
   }
   .shipping__text {
       grid-column: 2 / 3;
@@ -318,8 +319,8 @@ header .header__basket .img {
       background-color: rgb(161, 196, 135);
       border: 1px solid #fffefe;
       border-radius: 80px;
-      width: 525px;
-      height: 536px;
+      width: 100%;
+      height: auto;
       background: url(../img/bgw.svg);
       }
   .fresh__text {
