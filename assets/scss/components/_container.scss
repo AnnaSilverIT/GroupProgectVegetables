@@ -34,9 +34,14 @@
     display: grid;
     grid-template-columns: 7fr 1fr 1fr 8fr;
     grid-template-rows: repeat(5, 1fr);
-    background-image: url(/assets/img/backPict.svg);
     background-color: rgb(250, 243, 231);
-    border-radius: 100px;
+    border: 1px solid #ffffff;
+    border-radius: 80px;
+    width: 100%;
+    height: auto;
+    background: url(../img/bgs.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .stepNumber {
@@ -50,6 +55,14 @@
 .threeSteps_img {
     grid-column: 1/2;
     grid-row: 2/6;
+    background-color: rgb(250, 243, 231);
+    border: 1px solid #ffffff;
+    border-radius: 80px;
+    width: 100%;
+    height: auto;
+    background: url(../img/bgs.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .threeSteps__text {
