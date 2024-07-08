@@ -43,6 +43,7 @@
     background: url(../img/bgs.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 50px;
 }
 
 .stepNumber {
@@ -57,11 +58,13 @@
     grid-column: 1/2;
     grid-row: 2/6;
     background-color: rgb(250, 243, 231);
-    border: 1px solid #ffffff;
     border-radius: 80px;
     width: 100%;
     height: auto;
-    
+    background: url(../img/bgs.svg);
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .threeSteps__text {
