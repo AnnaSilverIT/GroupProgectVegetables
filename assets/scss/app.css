@@ -254,8 +254,8 @@ header .header__basket .img {
 }
 
 .round {
-  width: 150px;
-  height: 150px;
+  width: 115px;
+  height: 115px;
   background-color: rgb(252, 138, 17);
   border-radius: 50%;
   margin-top: 50px;
@@ -264,12 +264,8 @@ header .header__basket .img {
   margin-bottom: 100px;
   display: flex;
   border: none;
-  outline: none;
   justify-content: center;
-}
-
-.cards_button {
-  margin: auto;
+  align-items: center;
 }
 
 .delivery__shipping {
