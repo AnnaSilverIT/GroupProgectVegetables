@@ -1,4 +1,7 @@
-
+.container__howOrder {
+    margin-bottom: 50px;
+    max-width: 100%;
+}
 .howOrder__text {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -10,11 +13,17 @@
     @include DM-sans(normal, 500, 48px, 104%);
     letter-spacing: -0.04em;
     text-transform: uppercase;
+    @media screen and (max-width: 768px) {
+        @include DM-sans(normal, 200, 32px, 104%);
+    }
 }
 
 .text__ourbasket {
     @include DM-sans(normal, 400, 18px, 133%);
     margin: 10px;
+    @media screen and (max-width: 768px) {
+        @include DM-sans(normal, 200, 14px, 133%);
+    }
 }
 .text__ourbasket_partLeft {
     grid-column: 1/2;
@@ -30,6 +39,9 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    @media screen and (max-width: 768px) {
+        align-items: center;
+    }
 }
 .threeSteps {
     display: grid;
@@ -38,7 +50,7 @@
     background-color: rgb(250, 243, 231);
     border: 1px solid #ffffff;
     border-radius: 80px;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     background: url(../img/bgs.svg);
     background-repeat: no-repeat;
@@ -49,8 +61,8 @@
 .stepNumber {
     display: inline-block;
     max-height: 14px;
-    max-width: 6px;
-    border-radius: 200px;
+    max-width: 10px;
+    border-radius: 50px;
     padding: 10px 14px;
     background-color: $primary-color;
 }
@@ -88,6 +100,9 @@
     line-height: 110%;
     letter-spacing: -0.04em;
     text-transform: uppercase;
+    @media screen and (max-width: 768px) {
+        @include DM-sans(normal, 100, 14px, 104%);
+    }
 }
 
 .threeSteps__text p {
@@ -103,6 +118,9 @@
     padding: 10px;
     @include DM-sans(italic, 500, 40px, 120%);
     margin: 0;
+    @media screen and (max-width: 768px) {
+        @include DM-sans(italic, 100, 22px, 104%);
+    }
 }
 .discount__text_Up {
     background-color: $secondary-color;

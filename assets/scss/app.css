@@ -1,3 +1,8 @@
+.container__howOrder {
+  margin-bottom: 50px;
+  max-width: 100%;
+}
+
 .howOrder__text {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -16,6 +21,16 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
 }
+@media screen and (max-width: 768px) {
+  .howOrder__h2 {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 104%;
+    letter-spacing: -4%;
+  }
+}
 
 .text__ourbasket {
   font-family: "DM Sans", sans-serif;
@@ -25,6 +40,16 @@
   line-height: 133%;
   letter-spacing: -4%;
   margin: 10px;
+}
+@media screen and (max-width: 768px) {
+  .text__ourbasket {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 133%;
+    letter-spacing: -4%;
+  }
 }
 
 .text__ourbasket_partLeft {
@@ -44,6 +69,11 @@
   justify-content: center;
   align-items: flex-end;
 }
+@media screen and (max-width: 768px) {
+  .container__photo {
+    align-items: center;
+  }
+}
 
 .threeSteps {
   display: grid;
@@ -52,7 +82,7 @@
   background-color: rgb(250, 243, 231);
   border: 1px solid #ffffff;
   border-radius: 80px;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   background: url(../img/bgs.svg);
   background-repeat: no-repeat;
@@ -63,8 +93,8 @@
 .stepNumber {
   display: inline-block;
   max-height: 14px;
-  max-width: 6px;
-  border-radius: 200px;
+  max-width: 10px;
+  border-radius: 50px;
   padding: 10px 14px;
   background-color: rgb(161, 196, 135);
 }
@@ -115,6 +145,16 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
 }
+@media screen and (max-width: 768px) {
+  .threeSteps__text h2 {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 104%;
+    letter-spacing: -4%;
+  }
+}
 
 .threeSteps__text p {
   font-family: "DM Sans", sans-serif;
@@ -139,6 +179,16 @@
   line-height: 120%;
   letter-spacing: -4%;
   margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .discount__text {
+    font-family: "DM Sans", sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 104%;
+    letter-spacing: -4%;
+  }
 }
 
 .discount__text_Up {
@@ -218,22 +268,26 @@ header .header__basket .img {
   font-family: var(--font-family);
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  justify-content: center;
+  gap: 24px;
 }
 
 .cards {
   background-color: rgb(234, 247, 229);
   height: 400px;
-  width: 300px;
+  width: 324px;
   border-radius: 20px;
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 
 .cards-title {
   margin-top: 20px;
   font-family: var(--font-family);
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 550;
 }
 
 .cards_img {
@@ -241,13 +295,13 @@ header .header__basket .img {
   width: 321px;
 }
 
-.cards_sub {
-  font-size: 18px;
+.cards_sub1 {
+  font-size: 20px;
   font-weight: 300;
 }
 
 .cards_sub2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
 }
 
@@ -407,4 +461,183 @@ header .header__basket .img {
   width: 105px;
   height: 48px;
   border-color: transparent;
+}
+
+.container__green-box {
+  display: flex;
+  height: 730px;
+  background-color: #A1C487;
+}
+
+.wrapper__green-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 33px;
+}
+
+.box__text {
+  width: 70%;
+}
+
+.box__image {
+  padding-top: 180px;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.image__green-girl {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.box__text-green {
+  height: 150px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.organic__text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 75px;
+  text-align: left;
+  letter-spacing: -4%;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.word__vegetables {
+  color: rgb(234, 247, 229);
+  font-style: italic;
+  letter-spacing: 1%;
+}
+
+.organic__little-text {
+  color: rgb(255, 255, 255);
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -4%;
+  text-align: left;
+  width: 70%;
+  padding-top: 16px;
+}
+
+.btn__green-box {
+  margin-top: 32px;
+  background: transparent;
+  border-color: transparent;
+}
+
+.button__shop-now {
+  transition: all 1s ease;
+}
+
+.button__shop-now:hover {
+  transform: rotate(15deg);
+}
+
+.container__fotocard {
+  display: flex;
+  margin-top: 134px;
+  height: 70px;
+}
+
+.element__two {
+  position: relative;
+  left: -25px;
+}
+
+.element__one:hover {
+  z-index: 15;
+  top: -25px;
+}
+
+.element__two:hover {
+  z-index: 10;
+  top: -25px;
+}
+
+.element__three {
+  position: relative;
+  left: -50px;
+}
+
+.element__three:hover {
+  z-index: 20;
+  top: -25px;
+}
+
+.element__four {
+  position: relative;
+  left: -130px;
+  top: -47px;
+}
+
+.element__four:hover {
+  z-index: 15;
+  top: -72px;
+}
+
+.wrapper__btn-shop {
+  padding-top: 70px;
+  padding-left: 145px;
+}
+
+.wrapper__btn-shop-1 {
+  padding-left: 140px;
+}
+
+.button__shop {
+  box-sizing: border-box;
+  border: 1px solid rgb(249, 247, 244);
+  border-radius: 1000px;
+  padding: 12px 32px 12px 32px;
+  left: 50%;
+  text-align: end;
+  background: transparent;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+.button__shop:hover {
+  background-color: rgb(249, 247, 244);
+}
+
+.button__shop-1 {
+  box-sizing: border-box;
+  border: 1px solid rgb(249, 247, 244);
+  border-radius: 1000px;
+  padding: 12px 32px 12px 32px;
+  left: 50%;
+  text-align: end;
+  background: transparent;
+  margin-left: 8px;
+}
+
+.button__shop-1:hover {
+  background-color: rgb(249, 247, 244);
+}
+
+#text__on-button {
+  color: rgb(249, 247, 244);
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: -4%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#text__on-button:hover {
+  color: #141414;
 }/*# sourceMappingURL=app.css.map */

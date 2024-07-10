@@ -23,21 +23,25 @@
   font-family: var(--font-family);
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  justify-content: center;
+  gap: 24px;
  }
 .cards {
    background-color: rgba(234,247,229,1);
    height: 400px;
-   width: 300px;
+   width: 324px;
    border-radius: 20px;
-   padding: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 30px;
+   padding-bottom: 0px;
   }
    
   .cards-title {
     margin-top: 20px;
     font-family: var(--font-family);
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 550;
   }
 
   .cards_img {
@@ -45,13 +49,13 @@
     width: 321px;
   }
 
-  .cards_sub {
-    font-size: 18px;
+  .cards_sub1 {
+    font-size: 20px;
     font-weight: 300;
   }
 
   .cards_sub2 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
   }
 
