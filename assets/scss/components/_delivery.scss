@@ -1,13 +1,10 @@
 .delivery__shipping {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 40px;
-    
-    }
-    
-    .shipping {
+    grid-template-columns: 2fr;
+  }
+  .shipping {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 5fr 1fr 1fr 4fr 1fr;
     background-color: rgb(250, 243, 231);
     border: 1px solid #ffffff;
     border-radius: 80px;
@@ -16,110 +13,140 @@
     background: url(../img/bgs.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-    }
-    .shipping_img {
-        grid-column: 1 / 2;
-        grid-row: 1/2;
-        width: 80%;
-        height: auto;
-        padding: 90px;
-        object-fit: inherit;
-    }
-    .shipping__text {
-        grid-column: 2 / 3;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .shipping__text h2 {
-        font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 40px;
-        line-height: 1.1;
-        letter-spacing: -0.04em;
-        text-transform: uppercase;
-        color: var(--black);
-        }
-    .your-products {
-        color: rgba(161, 196, 135, 1);
-        }
-    .best {
-        color: rgba(252, 138, 17, 1);
-        }
-    .fresh {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 40px;
-    }
+    margin-bottom: 100px;
+  }
+  .shipping_img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    height: auto;
+    padding: 80px;
+    object-fit: inherit;
+  }
+  .shipping__text {
+    grid-column: 4/5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
-    .fresh__photo {
-        grid-column: 3/4;
-        grid-row: 1/2;
-        display: flex;
-        align-items: flex-end;
-        background-color: rgb(161, 196, 135);
-        border: 1px solid #fffefe;
-        border-radius: 80px;
-        width: 100%;
-        height: auto;
-        background: url(../img/bgw.svg);
-        }
-    .fresh__text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0 40px;
-    }
-    .fresh__h2 {
-        font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 1.04167;
-        letter-spacing: -0.04em;
-        text-transform: uppercase;
-        color: var(--black);
-        }
-    .text__freshbox {
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.33333;
-        letter-spacing: -0.04em;
-        color: var(--black);
-        }
-    .fresh__register {
-        display: grid;
-        grid-template-columns: 1fr auto;
-        margin-top: 40px;
-    }
-        .email-container {
-            display: flex;
-            align-items: center;
-            border: 1px solid #e2d5d5;
-            border-radius: 80px;
-            width: 400px;
-            height: 48px;
-        }
-        .fresh__email {
-            margin-left: 40px;
-            border: none;
-            font-family: var(--font-family);
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 1.28571;
-            color: var(--black);
-            flex-grow: 1;
-        }   
-        .fresh__button {
-        background-color: rgba(252, 138, 17, 1);
-        color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        border-radius: 100px;
-        padding: 15px 35px;
-        width: 105px;
-        height: 48px;
-        border-color: transparent;
-        }
+  }
+  .shipping__text h2 {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+  }
+
+  .your-products {
+    color: rgb(161, 196, 135);
+    font-style: italic;
+  }
+
+  .best {
+    color: rgb(252, 138, 17);
+    font-style: italic;
+    
+  }
+
+  .your-products:hover {
+    color: rgb(252, 138, 17);
+  }
+  
+  .best:hover {
+    color: rgb(161, 196, 135);
+  }
+
+  .fresh {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 2fr 4fr;
+    grid-row-gap: 40px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+  }
+  .fresh__photo {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(161, 196, 135);
+    border: 1px solid #fffefe;
+    border-radius: 80px;
+    width: 100%;
+    height: auto;
+    background: url(../img/bgw.svg);
+    background-repeat: no-repeat;
+  }
+  .fresh__text {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+  }
+  .fresh__h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.04167;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: var(--black);
+  }
+  .text__freshbox {
+    font-family: "DM Sans", sans-serif;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: -0.04em;
+    color: var(--black);
+  }
+  .fresh__register {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-top: 40px;
+  }
+  .email-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e2d5d5;
+    border-radius: 80px;
+    width: 400px;
+    height: 48px;
+  }
+  .fresh__email {
+    font-family: "DM Sans", sans-serif;
+    margin-left: 40px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: var(--black);
+    flex-grow: 1;
+  }
+  .fresh__button {
+    background-color: rgb(252, 138, 17);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 100px;
+    padding: 15px 35px;
+    width: 105px;
+    height: 48px;
+    border-color: transparent;
+  }
+  .fresh__button:hover {
+    background-color:rgb(161, 196, 135); 
+    color: #fff;
+  }
+  
