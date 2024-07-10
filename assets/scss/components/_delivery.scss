@@ -12,7 +12,7 @@
     height: auto;
     background: url(../img/bgs.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     margin-bottom: 100px;
   }
   .shipping_img {
@@ -22,6 +22,16 @@
     height: auto;
     padding: 80px;
     object-fit: inherit;
+    background-size: cover;
+    @media screen and (max-width: 768px) {
+      align-items: center;
+      grid-column-start: span all;
+text-align:center;
+margin-top:auto;
+margin-bottom:auto;
+justify-self:center
+
+  }
   }
   .shipping__text {
     grid-column: 4/5;
@@ -29,7 +39,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    @media screen and (max-width: 768px) {
+      align-items: center;
+      grid-column-start: span all;
+text-align:center;
+margin-top:auto;
+margin-bottom:auto;
+justify-self:center
+  }
   }
   .shipping__text h2 {
     font-family: "DM Sans", sans-serif;
@@ -39,6 +56,15 @@
     line-height: 1.1;
     letter-spacing: -0.04em;
     text-transform: uppercase;
+    text-align:center;
+    @media screen and (max-width: 768px) {
+      align-items: center;
+      grid-column-start: span all;
+    text-align:center;
+    margin-top:auto;
+    margin-bottom:auto;
+    justify-self:center
+    }
   }
 
   .your-products {
@@ -80,6 +106,15 @@
     height: auto;
     background: url(../img/bgw.svg);
     background-repeat: no-repeat;
+    background-size: cover;
+    @media screen and (max-width: 768px) {
+      align-items: center;
+      grid-column-start: span all;
+    text-align:center;
+    margin-top:auto;
+    margin-bottom:auto;
+    justify-self:center
+    }
   }
   .fresh__text {
     grid-column: 1/4;
@@ -150,3 +185,68 @@
     color: #fff;
   }
   
+  @media screen and (max-width: 768px) {
+    .delivery__shipping {
+     grid-template-columns: 1fr; 
+   }
+   
+   
+   
+   .shipping {
+       grid-template-columns: 1fr;
+       margin-bottom: 50px;
+   }
+   
+   .shipping_img {
+       grid-column: 1/2;
+       grid-row: 1/2;
+       padding: 20px;
+   }
+   
+   .shipping__text {
+       grid-column: 1/2;
+   }
+   
+   .shipping__text h2 {
+       font-size: 24px;
+   }
+   
+   .fresh {
+       grid-template-columns: 1fr;
+       grid-row-gap: 20px;
+   }
+   
+   .fresh__photo {
+       grid-column: 1/2;
+       grid-row: 1/2;
+   }
+   
+   .fresh__text {
+       grid-column: 1/2;
+       grid-row: 2/3;
+       padding: 0 20px;
+   }
+   
+   .fresh__h2 {
+       font-size: 32px;
+   }
+   
+   .text__freshbox {
+       font-size: 14px;
+   }
+   
+   .email-container {
+       width: 100%;
+       max-width: 300px;
+   }
+   
+   .fresh__email {
+       margin-left: 20px;
+   }
+   
+   .fresh__button {
+       padding: 10px 20px;
+       width: 85px;
+       height: 40px;
+   }
+   }
