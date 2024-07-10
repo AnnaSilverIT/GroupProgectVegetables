@@ -315,10 +315,19 @@ header .header__basket .img {
   color: rgb(161, 196, 135);
   font-style: italic;
 }
+
 .best {
   color: rgb(252, 138, 17);
   font-style: italic;
 }
+.your-products:hover {
+  color: rgb(252, 138, 17);
+}
+
+.best:hover {
+  color: rgb(161, 196, 135);
+}
+
 .fresh {
   display: grid;
   grid-template-columns: 4fr 1fr 1fr 2fr 4fr;
