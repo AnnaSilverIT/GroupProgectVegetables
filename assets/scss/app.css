@@ -271,7 +271,7 @@ header .header__basket .img {
 .delivery__shipping {
   display: grid;
   grid-template-columns: 2fr;
-  grid-row-gap: 40px;
+  
 }
 .shipping {
   display: grid;
