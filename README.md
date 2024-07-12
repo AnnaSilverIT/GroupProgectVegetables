@@ -1,6 +1,6 @@
-h1 GroupProjectVegetables
+# GroupProjectVegetables
 =====================
 Web-site for аresh, high-quality vegetables shop.
 
-h2 Contents
+## Contents
 -----------------------------------
