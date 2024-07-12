@@ -162,14 +162,14 @@
 .discount__text {
     color: #f9f7f4;
     padding: 10px;
-    @include DM-sans(italic, 500, 40px, 120%);
+    @include DM-sans(italic, 500, 39px, 120%);
     margin: 0;
     @media screen and (max-width: 768px) {
         @include DM-sans(italic, 100, 22px, 104%);
     }
     @media screen and (max-width: 376px) {
-        width: 130%;
-        object-fit: fill;
+        white-space: nowrap; 
+        overflow: hidden;
     }
 }
 .discount__text_Up {
