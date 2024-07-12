@@ -671,6 +671,21 @@ header .header__basket .img {
   height: 730px;
   background-color: #A1C487;
 }
+@media (max-width: 1200px) {
+  .container__green-box {
+    height: 800px;
+  }
+}
+@media (max-width: 768px) {
+  .container__green-box {
+    height: 1042px;
+  }
+}
+@media (max-width: 376px) {
+  .container__green-box {
+    height: 812px;
+  }
+}
 
 .wrapper__green-box {
   display: flex;
@@ -678,9 +693,27 @@ header .header__basket .img {
   justify-content: space-between;
   padding: 0 33px;
 }
+@media (max-width: 768px) {
+  .wrapper__green-box {
+    display: block;
+    padding-left: 32px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 376px) {
+  .wrapper__green-box {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+}
 
 .box__text {
   width: 70%;
+}
+@media (max-width: 768px) {
+  .box__text {
+    width: 100%;
+  }
 }
 
 .box__image {
@@ -689,12 +722,47 @@ header .header__basket .img {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  .box__image {
+    padding-top: 270px;
+    width: 100%;
+  }
+}
+@media (max-width: 620px) {
+  .box__image {
+    padding-top: 400px;
+  }
+}
+@media (max-width: 490px) {
+  .box__image {
+    padding-top: 450px;
+  }
+}
+@media (max-width: 376px) {
+  .box__image {
+    padding-top: 270px;
+  }
+}
 
 .image__green-girl {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 768px) {
+  .image__green-girl {
+    width: 75%;
+    text-align: center;
+    float: right;
+    padding-right: 70px;
+  }
+}
+@media (max-width: 376px) {
+  .image__green-girl {
+    width: 90%;
+    padding-right: 8%;
+  }
 }
 
 .box__text-green {
@@ -715,6 +783,22 @@ header .header__basket .img {
   margin-top: 16px;
   margin-bottom: 0;
 }
+@media (max-width: 768px) {
+  .organic__text {
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: -2px;
+  }
+}
+@media (max-width: 376px) {
+  .organic__text {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -4px;
+    margin-top: 14px;
+    margin-bottom: 0;
+  }
+}
 
 .word__vegetables {
   color: rgb(234, 247, 229);
@@ -733,11 +817,37 @@ header .header__basket .img {
   width: 70%;
   padding-top: 16px;
 }
+@media (max-width: 376px) {
+  .organic__little-text {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 14px;
+    width: 97%;
+    letter-spacing: -8%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
 
 .btn__green-box {
   margin-top: 32px;
   background: transparent;
   border-color: transparent;
+}
+@media (max-width: 768px) {
+  .btn__green-box {
+    width: 134px;
+    height: 134px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 376px) {
+  .btn__green-box {
+    margin-top: 20px;
+    height: 88px;
+    width: 88px;
+    padding-left: 0;
+  }
 }
 
 .button__shop-now {
@@ -752,6 +862,16 @@ header .header__basket .img {
   display: flex;
   margin-top: 134px;
   height: 70px;
+}
+@media (max-width: 1050px) {
+  .container__fotocard {
+    margin-top: 64px;
+  }
+}
+@media (max-width: 376px) {
+  .container__fotocard {
+    margin-top: 50px;
+  }
 }
 
 .element__two {
@@ -784,6 +904,11 @@ header .header__basket .img {
   left: -130px;
   top: -47px;
 }
+@media (max-width: 376px) {
+  .element__four {
+    top: -40px;
+  }
+}
 
 .element__four:hover {
   z-index: 15;
@@ -794,9 +919,41 @@ header .header__basket .img {
   padding-top: 70px;
   padding-left: 145px;
 }
+@media (max-width: 1250px) {
+  .wrapper__btn-shop {
+    padding-left: 0;
+    float: right;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper__btn-shop {
+    float: right;
+    padding-top: 8px;
+    padding-right: 3%;
+    padding-left: 100px;
+  }
+}
+@media (max-width: 376px) {
+  .wrapper__btn-shop {
+    padding-top: 15px;
+  }
+}
 
 .wrapper__btn-shop-1 {
   padding-left: 140px;
+}
+@media (max-width: 1250px) {
+  .wrapper__btn-shop-1 {
+    padding-left: 0;
+    float: right;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper__btn-shop-1 {
+    float: right;
+    padding-left: 70px;
+    padding-right: 3%;
+  }
 }
 
 .button__shop {
@@ -809,6 +966,11 @@ header .header__basket .img {
   background: transparent;
   margin-bottom: 8px;
   margin-left: 8px;
+}
+@media (max-width: 376px) {
+  .button__shop {
+    padding: 8px 14px 8px 14px;
+  }
 }
 
 .button__shop:hover {
@@ -825,6 +987,11 @@ header .header__basket .img {
   background: transparent;
   margin-left: 8px;
 }
+@media (max-width: 376px) {
+  .button__shop-1 {
+    padding: 8px 14px 8px 14px;
+  }
+}
 
 .button__shop-1:hover {
   background-color: rgb(249, 247, 244);
@@ -839,6 +1006,12 @@ header .header__basket .img {
   letter-spacing: -4%;
   text-align: center;
   text-transform: uppercase;
+}
+@media (max-width: 376px) {
+  #text__on-button {
+    font-size: 10px;
+    line-height: 12px;
+  }
 }
 
 #text__on-button:hover {
