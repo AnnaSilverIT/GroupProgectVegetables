@@ -42,7 +42,7 @@ Our goal: make the freshest and most nutritious vegetables delivery possible and
 
 ## Source
 
-[Design files] (https://www.figma.com/design/VxkmPGSlvFLQnwYYMPHShS/%D0%BE%D0%B2%D0%BE%D1%89%D0%B8?node-id=0-1&t=NHaZzzODj0JtUGsB-0)
+[Design files](https://www.figma.com/design/VxkmPGSlvFLQnwYYMPHShS/%D0%BE%D0%B2%D0%BE%D1%89%D0%B8?node-id=0-1&t=NHaZzzODj0JtUGsB-0)
 
 ## Contributing
 
