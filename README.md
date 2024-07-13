@@ -20,8 +20,15 @@ Test the web-site on your local computer, connect the site to the domain.
 
 ## Team
 
+Anna Seliverstova
+
+Antonina Rednaya
+
 Albina Polkanova
 
 Svetlana Zaretskaya
 
 Elena Lukoyanova
+
+Enzhe Safina
+
