@@ -12,7 +12,7 @@ Team
 
 ## Technologies
 
-Html, scc, scss
+Html, css, scss
 
 ## Usage
 
@@ -24,3 +24,4 @@ Albina Polkanova
 
 Svetlana Zaretskaya
 
+Elena Lukoyanova
