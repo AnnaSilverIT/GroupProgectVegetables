@@ -12,7 +12,7 @@ Team
 
 ## Technologies
 
-Html, scc, scss
+Html, css, scss
 
 ## Usage
 
