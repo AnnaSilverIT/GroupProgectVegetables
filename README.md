@@ -4,17 +4,17 @@ Web-site for fresh, high-quality vegetables shop with commodity cards, product c
 
 ## Contents
 
-Technologies
+[Technologies](#Technologies)
 
-Usage
+[Usage](#Usage)
 
-Team
+[Team](#Team)
 
-Source
+[Source](#Source)
 
-Contributing
+[Contributing](#Contributing)
 
-FAQ
+[FAQ](#FAQ)
 
 ## Technologies
 
