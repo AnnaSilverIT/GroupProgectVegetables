@@ -955,7 +955,7 @@ header .header__basket .basket-image:hover {
 }
 @media (max-width: 376px) {
   .box__image {
-    padding-top: 270px;
+    padding-top: 200px;
   }
 }
 
