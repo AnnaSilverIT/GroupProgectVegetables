@@ -979,6 +979,16 @@ header .header__basket .basket-image:hover {
     padding-right: 8%;
   }
 }
+@media (max-width: 450px) {
+  .image__green-girl {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .image__green-girl {
+    padding-top: 50px;
+  }
+}
 
 .box__text-green {
   height: 150px;
@@ -1148,6 +1158,20 @@ header .header__basket .basket-image:hover {
     padding-left: 100px;
   }
 }
+@media (max-width: 450px) {
+  .wrapper__btn-shop {
+    float: right;
+    padding-left: 70px;
+    padding-right: 3%;
+  }
+}
+@media (max-width: 420px) {
+  .wrapper__btn-shop {
+    float: right;
+    padding-left: 0px;
+    padding-right: 3%;
+  }
+}
 @media (max-width: 376px) {
   .wrapper__btn-shop {
     padding-top: 15px;
@@ -1167,6 +1191,13 @@ header .header__basket .basket-image:hover {
   .wrapper__btn-shop-1 {
     float: right;
     padding-left: 70px;
+    padding-right: 3%;
+  }
+}
+@media (max-width: 420px) {
+  .wrapper__btn-shop-1 {
+    float: right;
+    padding-left: 0px;
     padding-right: 3%;
   }
 }

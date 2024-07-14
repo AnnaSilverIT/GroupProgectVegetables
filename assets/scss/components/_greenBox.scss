@@ -67,6 +67,12 @@
         width: 90%;
         padding-right: 8%;
 }
+@media (max-width: 450px) {
+ padding-top: 20px;
+}
+@media (max-width: 420px) {
+  padding-top: 50px;
+}
     }
     .box__text-green {
       height: 150px;
@@ -203,6 +209,16 @@
         padding-right: 3%; 
         padding-left: 100px;
       }
+      @media (max-width: 450px) {
+        float: right;
+        padding-left: 70px;
+        padding-right: 3%; 
+      }
+      @media (max-width: 420px) {
+        float: right;
+        padding-left: 0px;
+        padding-right: 3%; 
+      }
       @media (max-width: 376px) {
         padding-top: 15px;
         }
@@ -216,6 +232,11 @@
       @media (max-width: 768px) {
         float: right;
         padding-left: 70px;
+        padding-right: 3%; 
+      }
+      @media (max-width: 420px) {
+        float: right;
+        padding-left: 0px;
         padding-right: 3%; 
       }
     }
