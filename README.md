@@ -2,6 +2,8 @@
 
 Web-site for fresh, high-quality vegetables shop with commodity cards, product categories and delivery service.
 
+Link: https://annasilverit.github.io/GroupProjectVegetables/
+
 ## Contents
 
 [Technologies](#Technologies)
