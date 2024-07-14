@@ -1,6 +1,6 @@
 # GroupProjectVegetables
 
-Web-site for fresh, high-quality vegetables shop with commodity cards, product categories ad delivery service.
+Web-site for fresh, high-quality vegetables shop with commodity cards, product categories and delivery service.
 
 ## Contents
 
